@@ -1,7 +1,7 @@
 [build]
 publish = "build/static"
 functions = "build/functions"
-command = "echo 'no build needed yet'"
+command = "yarn build"
 
 [[redirects]]
   # Any routes we don't have a static page for, use a server-side-render function
