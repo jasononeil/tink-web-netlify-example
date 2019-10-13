@@ -1,0 +1,11 @@
+{
+  "name": "tink-web-netlify",
+  "version": "1.0.0",
+  "description": "An example of running tink-web in a way that is compatible with Netlify",
+  "main": "index.js",
+  "author": "Jason O'Neil <jason.oneil@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lix": "^15.5.4"
+  }
+}
