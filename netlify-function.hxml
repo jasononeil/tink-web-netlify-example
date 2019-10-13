@@ -1,0 +1,6 @@
+-lib tink_web
+-cp src
+-js build/functions/main.js
+-D js-es=6
+-dce full
+NetlifyFunction
