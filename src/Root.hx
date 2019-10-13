@@ -1,6 +1,7 @@
 class Root {
 	public function new() {}
 
+	@:get('/')
 	public function home() {
 		return 'This is my homepage!';
 	}
