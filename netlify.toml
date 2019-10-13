@@ -1,5 +1,7 @@
 [build]
-functions = "./build/functions"
+publish = "build/static"
+functions = "build/functions"
+command = "echo 'no build needed yet'"
 
 [[redirects]]
   # Any routes we don't have a static page for, use a server-side-render function
