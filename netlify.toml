@@ -3,6 +3,10 @@ publish = "build/static"
 functions = "build/functions"
 command = "yarn build"
 
+[build.environment]
+  # The default location is the ~/haxe, which isn't writeable in Netlify build agents.
+  HAXESHIM_ROOT = "/opt/build/repo/tmp"
+
 [[redirects]]
   # Any routes we don't have a static page for, use a server-side-render function
   # The 200 status means it leaves the browser URL in place, it doesn't behave as a browser redirect.

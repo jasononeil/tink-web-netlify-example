@@ -9,6 +9,7 @@
     "lix": "^15.5.4"
   },
   "scripts": {
+    "postinstall": "lix download",
     "build": "yarn haxe netlify-function.hxml"
   }
 }
